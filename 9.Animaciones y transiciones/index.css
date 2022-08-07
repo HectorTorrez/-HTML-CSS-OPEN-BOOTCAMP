@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.btn-modern {
+    border: none;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20pt;
+}
+
+.btn-modern:hover {
+    animation: traslade 0.4s forwards;
+    cursor: pointer;
+}
+
+@keyframes traslade {
+    100% {
+        transform: translateY(-5px);
+        box-shadow: 0 0 10px rgb(0, 174, 255);
+        background-color: black;
+        color: white;
+    }
+}
