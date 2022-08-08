@@ -6,7 +6,6 @@
     .container {
         display: flex;
         min-height: 500px;
-        background-color: antiquewhite;
     }
     
     .barra-izquierda {
